@@ -8,3 +8,14 @@ management:
 promotion: action
 
 name: hitest123
+
+eureka:
+  instance:
+    instance-id: localhost:${server.port}
+    hostname: localhost
+  client:
+    region: default
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
