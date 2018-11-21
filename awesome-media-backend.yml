@@ -6,3 +6,5 @@ management:
     enabled: false    
 
 promotion: action
+
+name: hitest
